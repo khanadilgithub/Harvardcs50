@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-#include "ps1.h"
+void hello();
+void mario1();
+void mario2();
 int main()
 {
   mario2();
