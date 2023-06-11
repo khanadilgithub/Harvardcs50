@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+void hello()
 {
   string name;
   cin>>name;
-  std::cout << "Hello, "<<name<<endl;
-  
+  std::cout << "Hello, "<<name<<endl; 
 }
