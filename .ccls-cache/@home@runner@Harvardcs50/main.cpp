@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-#include "ps1.h"
+#include "mainheaderfile.h"
 int main()
 {
-  mario2();
+  Readibility();
 }
