@@ -1,6 +1,8 @@
 #include <iostream>
+#include "PS2.h"
+
 using namespace std;
-#include "mainheaderfile.h"
+
 int main()
 {
   Readibility();
