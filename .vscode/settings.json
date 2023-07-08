@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "debug.terminal.clearBeforeReusing": true,
+    "code-runner.runInTerminal": true
+}

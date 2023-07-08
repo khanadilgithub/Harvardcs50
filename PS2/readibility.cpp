@@ -7,6 +7,7 @@ using namespace std;
 void Readibility()
 {
   string text = "";
+  cout<<"Enter the sentence for grade level evaluation: "<<endl;
   getline(cin, text); //reading input text
   int n =text.size();
   

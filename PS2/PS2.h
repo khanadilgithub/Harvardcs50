@@ -1,5 +1,4 @@
 #pragma once
-void hello();
-void mario1();
-void mario2();
+bool isargint(std::string str);
 void Readibility();
+void Caesar(int key);
