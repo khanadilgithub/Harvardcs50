@@ -9,17 +9,21 @@ void Caesar(int key)
     int n =plainText.size();
     for (int i=0; i<n; i++)
     {
-        char c = plainText[i];
-        //cout<<key;
-        if(isalpha(c))
+        char ch = plainText[i];
+
+        if(isalpha(ch))
         {
-            //char c= ((int)c + key)%26;
-            cout<<c;
+            if(islower(ch))
+            {
+                ch= (ch-'a'+key)%26 + 'a';
+            }
+            else if(isupper(ch))
+            {
+                ch= (ch-'A'+key)%26 + 'A';
+            }
         }
-        else
-        {
-            cout<<c;
-        }
+
+        cipherText+=ch;
     }
-    cout<<endl;
+    cout<<cipherText<<endl;
 }
