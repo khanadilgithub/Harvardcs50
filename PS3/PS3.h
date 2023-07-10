@@ -1,2 +1,2 @@
 #pragma once
-long Atoi(string str);
+long Atoi(std::string str);
