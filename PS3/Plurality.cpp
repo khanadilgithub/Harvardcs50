@@ -7,7 +7,7 @@ struct Candidate
     string name ="";
     int vote =0;
 };
-Candidate Candidates[3] = {{"Alice",0}, {"Bob, 0"}, {"Charlie",0}};
+Candidate Candidates[3] = {{"Alice",0}, {"Bob",0}, {"Charlie",0}};
 bool Vote(string cname)
 {
     if(cname=="Alice")
