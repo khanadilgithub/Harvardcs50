@@ -8,6 +8,7 @@ int main()
 {
   //string str =" -1234567890";
   //cout<<Atoi(str);
-  Snackbar();
+  //Snackbar();
+  Plurality();
   return 0;
 }
